@@ -1,0 +1,6 @@
+유닛테스트 예제(MSTEST)
+
+테스트 실행 방법
+- stringLibraryTest 프로젝트
+- 테스트
+- 모든 테스트 실행
