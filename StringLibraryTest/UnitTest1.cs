@@ -2,6 +2,11 @@
 using System;
 using ClassLibraryProjects;
 
+
+//참고 사이트
+//https://qiita.com/mima_ita/items/55394bcc851eb8b6dc24
+//https://www.meziantou.net/mstest-v2-data-tests.htm
+
 namespace StringLibraryTest
 {
     [TestClass]
