@@ -66,9 +66,7 @@
      * Visual Studio IDE에 통합 
   4. 기존 테스트 사례 보완
      * IntelliTest를 사용하여 이미 따르고 있는 기존 테스트 사례를 보완
-     * 현재 생성한 테스트 데이터가 테스트 대상 메서드에서 모든 부분에서 사용되는지 확인가능(else if문 등에서 실행되지 않는 구역은 붉은 강조 표시 등의 설정이 가능하다)
-     <img width="576" alt="inteliTestUsed" src="https://user-images.githubusercontent.com/39551265/148185739-10e9b062-029a-43c5-bc7f-dc080400e272.png">
-
+     
 
 ## Live Unit Testing
 * 한 줄 정리
@@ -77,9 +75,13 @@
   1. 미리 준비된 단위 테스트를 이용 가능
   2. Live Unit Testing을 실행하게 되면 소스코드 변경시 실시간으로 단위 테스트의 결과가 업데이트
 ## Microsoft Fakes(유닛 테스트 격리)
+> 테스트를 위해 프로젝트에서 아직 구현하지 못한 솔루션이나 구조체를 대체하여 테스트 대상 코드와 협력하는 개체를 격리(의존성 제거)
 
-## Code Coverage
-   
+## Code Coverage(코드 검사)
+> 테스트를 할 시 코드가 실행되는 범위를 설정하고 코드가 실행하되는 범위를 한눈에 볼 수 있게 도와주는 분석 도구
+* 참고 이미지(테스트 실행시 IF문이 실행되지 않은 부분 붉게 강조)
+<img width="576" alt="inteliTestUsed" src="https://user-images.githubusercontent.com/39551265/148185739-10e9b062-029a-43c5-bc7f-dc080400e272.png">
+
 ## 참고 사이트
 
 * https://docs.microsoft.com/ko-kr/visualstudio/test/?view=vs-2022
@@ -87,3 +89,4 @@
 * https://bb-library.tistory.com/262
 * https://mohamedradwan.com/2017/07/05/automated-software-testing/
 * https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+* https://www.youtube.com/watch?v=FQjyaoOmnDQ
