@@ -15,7 +15,6 @@ namespace ShowCase
                     ResetConsole();
 
                 string input = Console.ReadLine();
-                string InputWithUpper = input;
                 if (string.IsNullOrEmpty(input)) break;
                 Console.WriteLine($"Input: {input} {"첫글자가 영문대문자인가? ",30}: " +
                                   $"{(input.StartsWithUpper() ? "Yes" : "No")}{Environment.NewLine}");
@@ -23,7 +22,6 @@ namespace ShowCase
             } while (true);
             return;
 
-            // Declare a ResetConsole local method
             void ResetConsole()
             {
                 if (row > 0)

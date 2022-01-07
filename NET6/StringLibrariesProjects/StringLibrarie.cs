@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ClassLibraryProjects
+namespace StringLibraries
 {
-    //string에 대한 클래스 라이브러리
-    public static class StringLibrary
+    public static class StringLibrarie
     {
         /// <summary>
         /// 첫 글자가 대문자인지 확인
@@ -17,7 +20,7 @@ namespace ClassLibraryProjects
 
             char ch = str[0];
 
-            //이곳에서 직접 소스를 고쳐보면서 LiveTest가 잘 작동하는지 확인해 보자
+            //여기에 ch의 값을 변경하면서 Live Unit Testing이 제대로 실행되는지 확인하자
             //ch = str[1];
 
             return char.IsUpper(ch);
@@ -29,5 +32,6 @@ namespace ClassLibraryProjects
         /// <param name="str"></param>
         /// <returns></returns>
         public static int StringLength(this string str) => string.IsNullOrEmpty(str) ? 0 : str.Length;
+        
     }
 }
