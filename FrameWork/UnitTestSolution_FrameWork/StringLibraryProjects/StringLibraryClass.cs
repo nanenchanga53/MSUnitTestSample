@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace ClassLibraryProjects
+namespace StringLibrary
 {
-    //string에 대한 클래스 라이브러리
-    public static class StringLibrary
+    public static class StringLibraryClass
     {
         /// <summary>
         /// 첫 글자가 대문자인지 확인
