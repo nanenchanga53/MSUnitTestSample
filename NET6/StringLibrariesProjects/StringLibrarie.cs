@@ -17,6 +17,10 @@ namespace StringLibraries
         {
             if (string.IsNullOrWhiteSpace(str))
                 return false;
+            else if (str.Length > 1000)
+            {
+                return false;  //코드 검사시 실행되지 않는 위치로 표시되어야 한다.
+            }
 
             char ch = str[0];
 
